@@ -1,11 +1,10 @@
 import { StatusBar as ExpoStatusBar } from 'expo-status-bar';
-import { SafeAreaView, Text, View } from 'react-native';
-import Search from './components/Search';
+import Restaurants from './screnns/Restaurants';
 
 export default function App() {
   return (
     <>
-      <Search/>
+      <Restaurants/>
       <ExpoStatusBar style='auto'/>
     </>
   )
